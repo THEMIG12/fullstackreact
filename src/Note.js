@@ -8,7 +8,7 @@ function Note({ id, text, deleteNote}) {
   const handleDelete = () => {
     deleteNote(id);
   };
-
+  
   const handleNoteClick = () => {
     setIsEditing(true);
   };
